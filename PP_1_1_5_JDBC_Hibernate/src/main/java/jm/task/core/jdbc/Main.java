@@ -8,9 +8,9 @@ public static void main(String[] args) {
         UserService userService = new UserServiceImpl();
         userService.dropUsersTable();
         userService.createUsersTable();
-        userService.saveUser("Roman", "Black", (byte) 13);
-        userService.saveUser("Oleg", "Fulba", (byte) 18);
-        userService.saveUser("Adrianno", "Meressy", (byte) 21);
+        userService.saveUser("Nikita", "Kuz", (byte) 21);
+        userService.saveUser("Anton", "Fulba", (byte) 45);
+        userService.saveUser("Oleg", "Laska", (byte) 77);
         userService.getAllUsers();
         userService.removeUserById(2L);
         userService.getAllUsers();
